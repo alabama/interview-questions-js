@@ -1,0 +1,17 @@
+{
+  "sourceMaps": "both",
+  "plugins": [
+    "babel-plugin-hash-resolve"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        },
+        "useBuiltIns": "entry"
+      }
+    ]
+  ]
+}
